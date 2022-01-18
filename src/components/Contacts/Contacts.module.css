@@ -1,0 +1,145 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  color: #999;
+  font: normal normal 12px/100% helvetica;
+}
+
+.email_link {
+  color: #999;
+  height: 16px;
+  margin-bottom: 9px;
+  padding-left: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.email_link:hover {
+  cursor: pointer;
+  color: #356eff;
+}
+
+.phone_link {
+  color: #999;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  height: 16px;
+  padding-left: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.phone_link:hover {
+  cursor: pointer;
+  color: #356eff;
+}
+
+.email_link:before {
+  content: '';
+  background: url('./img/mail.svg') no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  top: 0;
+  left: 0;
+}
+
+.email_link:hover::before {
+  content: '';
+  background: url('./img/mail_active.svg') no-repeat;
+  background-size: cover;
+}
+
+.phone_link:before {
+  content: '';
+  background: url('./img/telegram.svg') no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  top: 0;
+  left: 0;
+}
+
+.phone_link:hover::before {
+  content: '';
+  background: url('./img/telegram_active.svg') no-repeat;
+  background-size: cover;
+}
+
+.social_networks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.github {
+  background: url('./img/github.svg') no-repeat;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  transition: .3s linear;
+}
+
+.vk {
+  background: url('./img/vk.svg') no-repeat;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  transition: .3s linear;
+}
+
+.instagram {
+  background: url('./img/instagram.svg') no-repeat;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  transition: .3s linear;
+}
+
+.facebook {
+  background: url('./img/facebook.svg') no-repeat;  height: 24px;
+  width: 24px;
+  position: relative;
+  transition: .3s linear;
+}
+
+.github:hover {
+  -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+.vk:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.instagram:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.facebook:hover {
+  -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+@media (min-width: 321px) and (max-width: 409px) {
+
+  .email_link,
+  .phone_link {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .email_link,
+  .phone_link {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,57 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Contacts/Contacts.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/components/Contacts/Contacts.module.css ***!
+  \********************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _img_email_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/email.svg */ "./src/components/Contacts/img/email.svg");
+/* harmony import */ var _img_telegram_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/telegram.svg */ "./src/components/Contacts/img/telegram.svg");
+/* harmony import */ var _img_github_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/github.svg */ "./src/components/Contacts/img/github.svg");
+/* harmony import */ var _img_vk_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/vk.svg */ "./src/components/Contacts/img/vk.svg");
+/* harmony import */ var _img_instagram_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/instagram.svg */ "./src/components/Contacts/img/instagram.svg");
+/* harmony import */ var _img_facebook_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/facebook.svg */ "./src/components/Contacts/img/facebook.svg");
+// Imports
+
+
+
+
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_email_svg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_telegram_svg__WEBPACK_IMPORTED_MODULE_3__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_github_svg__WEBPACK_IMPORTED_MODULE_4__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_vk_svg__WEBPACK_IMPORTED_MODULE_5__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_instagram_svg__WEBPACK_IMPORTED_MODULE_6__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_facebook_svg__WEBPACK_IMPORTED_MODULE_7__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".Contacts_wrap__3zvj1 {\r\n  display: flex;\r\n  flex-direction: column;\r\n  color: #999;\r\n  font: normal normal 12px/100% helvetica;\r\n}\r\n\r\n.Contacts_email_link__HqEZk {\r\n  color: #999;\r\n  height: 16px;\r\n  margin-bottom: 9px;\r\n  padding-left: 20px;\r\n  position: relative;\r\n  text-decoration: none;\r\n}\r\n\r\n.Contacts_email_link__HqEZk:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.Contacts_phone_link__1Vhzy {\r\n  color: #999;\r\n  display: flex;\r\n  align-items: center;\r\n  margin-bottom: 15px;\r\n  height: 16px;\r\n  padding-left: 20px;\r\n  position: relative;\r\n  text-decoration: none;\r\n}\r\n\r\n\r\n.Contacts_phone_link__1Vhzy:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.Contacts_email_link__HqEZk:before {\r\n  content: '';\r\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat;\r\n  background-size: cover;\r\n  position: absolute;\r\n  height: 16px;\r\n  width: 16px;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.Contacts_phone_link__1Vhzy:before {\r\n  content: '';\r\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat;\r\n  background-size: cover;\r\n  position: absolute;\r\n  height: 16px;\r\n  width: 16px;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.Contacts_social_networks__NfBaU {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.Contacts_github__2NPDC {\r\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") no-repeat;\r\n  background-size: cover;\r\n  margin-right: 8px;\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n.Contacts_vk__Fkj04 {\r\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") no-repeat;\r\n  background-size: cover;\r\n  margin-right: 8px;\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n.Contacts_instagram__IMMfk {\r\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") no-repeat;\r\n  background-size: cover;\r\n  margin-right: 8px;\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n.Contacts_facebook__3bORQ {\r\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ") no-repeat;\r\n\r\n  height: 24px;\r\n  width: 24px;\r\n  position: relative;\r\n  z-index: 2;\r\n  cursor: pointer;\r\n  transition: .5s linear;\r\n}\r\n\r\n.Contacts_github__2NPDC:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.Contacts_vk__Fkj04:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.Contacts_instagram__IMMfk:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.Contacts_facebook__3bORQ:hover {\r\n transform: scale(1.4);\r\n opacity: 0.8;\r\n}\r\n\r\n@media (min-width: 321px) and (max-width: 409px) {\r\n\r\n  .Contacts_email_link__HqEZk,\r\n  .Contacts_phone_link__1Vhzy {\r\n    margin-bottom: 5px;\r\n  }\r\n}\r\n\r\n@media (max-width: 320px) {\r\n\r\n  .Contacts_email_link__HqEZk,\r\n  .Contacts_phone_link__1Vhzy {\r\n    margin-bottom: 5px;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://src/components/Contacts/Contacts.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,WAAW;EACX,uCAAuC;AACzC;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,eAAe;EACf,YAAY;AACd;;AAEA;EACE,WAAW;EACX,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,qBAAqB;AACvB;;;AAGA;EACE,eAAe;EACf,YAAY;AACd;;AAEA;EACE,WAAW;EACX,6DAA4C;EAC5C,sBAAsB;EACtB,kBAAkB;EAClB,YAAY;EACZ,WAAW;EACX,MAAM;EACN,OAAO;AACT;;AAEA;EACE,WAAW;EACX,6DAA+C;EAC/C,sBAAsB;EACtB,kBAAkB;EAClB,YAAY;EACZ,WAAW;EACX,MAAM;EACN,OAAO;AACT;;AAEA;EACE,aAAa;EACb,yBAAyB;AAC3B;;AAEA;EACE,6DAA6C;EAC7C,sBAAsB;EACtB,iBAAiB;EACjB,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,6DAAyC;EACzC,sBAAsB;EACtB,iBAAiB;EACjB,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,6DAAgD;EAChD,sBAAsB;EACtB,iBAAiB;EACjB,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,6DAA+C;;EAE/C,YAAY;EACZ,WAAW;EACX,kBAAkB;EAClB,UAAU;EACV,eAAe;EACf,sBAAsB;AACxB;;AAEA;EACE,eAAe;EACf,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;AACd;;AAEA;CAEC,qBAAqB;CACrB,YAAY;AACb;;AAEA;;EAEE;;IAEE,kBAAkB;EACpB;AACF;;AAEA;;EAEE;;IAEE,kBAAkB;EACpB;AACF","sourcesContent":[".wrap {\r\n  display: flex;\r\n  flex-direction: column;\r\n  color: #999;\r\n  font: normal normal 12px/100% helvetica;\r\n}\r\n\r\n.email_link {\r\n  color: #999;\r\n  height: 16px;\r\n  margin-bottom: 9px;\r\n  padding-left: 20px;\r\n  position: relative;\r\n  text-decoration: none;\r\n}\r\n\r\n.email_link:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.phone_link {\r\n  color: #999;\r\n  display: flex;\r\n  align-items: center;\r\n  margin-bottom: 15px;\r\n  height: 16px;\r\n  padding-left: 20px;\r\n  position: relative;\r\n  text-decoration: none;\r\n}\r\n\r\n\r\n.phone_link:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.email_link:before {\r\n  content: '';\r\n  background: url('./img/email.svg') no-repeat;\r\n  background-size: cover;\r\n  position: absolute;\r\n  height: 16px;\r\n  width: 16px;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.phone_link:before {\r\n  content: '';\r\n  background: url('./img/telegram.svg') no-repeat;\r\n  background-size: cover;\r\n  position: absolute;\r\n  height: 16px;\r\n  width: 16px;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.social_networks {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\n.github {\r\n  background: url('./img/github.svg') no-repeat;\r\n  background-size: cover;\r\n  margin-right: 8px;\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n.vk {\r\n  background: url('./img/vk.svg') no-repeat;\r\n  background-size: cover;\r\n  margin-right: 8px;\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n.instagram {\r\n  background: url('./img/instagram.svg') no-repeat;\r\n  background-size: cover;\r\n  margin-right: 8px;\r\n  height: 24px;\r\n  width: 24px;\r\n}\r\n\r\n.facebook {\r\n  background: url('./img/facebook.svg') no-repeat;\r\n\r\n  height: 24px;\r\n  width: 24px;\r\n  position: relative;\r\n  z-index: 2;\r\n  cursor: pointer;\r\n  transition: .5s linear;\r\n}\r\n\r\n.github:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.vk:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.instagram:hover {\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n\r\n.facebook:hover {\r\n  -webkit-transform: scale(1.4);\r\n transform: scale(1.4);\r\n opacity: 0.8;\r\n}\r\n\r\n@media (min-width: 321px) and (max-width: 409px) {\r\n\r\n  .email_link,\r\n  .phone_link {\r\n    margin-bottom: 5px;\r\n  }\r\n}\r\n\r\n@media (max-width: 320px) {\r\n\r\n  .email_link,\r\n  .phone_link {\r\n    margin-bottom: 5px;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"wrap": "Contacts_wrap__3zvj1",
+	"email_link": "Contacts_email_link__HqEZk",
+	"phone_link": "Contacts_phone_link__1Vhzy",
+	"social_networks": "Contacts_social_networks__NfBaU",
+	"github": "Contacts_github__2NPDC",
+	"vk": "Contacts_vk__Fkj04",
+	"instagram": "Contacts_instagram__IMMfk",
+	"facebook": "Contacts_facebook__3bORQ"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.545279499f7585fded49.hot-update.js.map

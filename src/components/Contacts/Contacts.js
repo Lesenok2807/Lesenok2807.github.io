@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactTitle } from 'react-meta-tags'
 import styles from './Contacts.module.css';
 
 const Contacts = () => (

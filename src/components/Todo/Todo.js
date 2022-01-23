@@ -94,6 +94,7 @@ class Todo extends React.Component {
   onClickSort = sorting => this.setState({ sorting: sorting });
 
   render() {
+
     let dealListString = JSON.stringify(this.state.items);
     localStorage.setItem('editedDealList', dealListString);
     let dealListNumber= JSON.stringify(this.state.count);

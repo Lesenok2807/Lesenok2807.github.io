@@ -93,6 +93,15 @@ class About extends React.Component {
            </div>
          }
        </Card>
+       <div>
+         <h2>Мои проекты:</h2>
+         <ul>
+           <li className={styles.project}><a href='https://lesenok2807.github.io/MyFirstProject/' className={styles.project}>1.Первая верстка</a></li>
+           <li className={styles.project}><a href='https://lesenok2807.github.io/final2module/' className={styles.project}>2.Итоговая по HTML и CSS</a></li>
+           <li className={styles.project}><a href='https://lesenok2807.github.io/Game_card/'className={styles.project}>3.Игра в карты на Java Script</a></li>
+           <li className={styles.project}><a href='https://lesenok2807.github.io/'className={styles.project}>4.Проект TODO на React</a></li>
+         </ul>
+       </div>
        <Card className={styles.repo_card}>
          {isLoading ?
            <div>

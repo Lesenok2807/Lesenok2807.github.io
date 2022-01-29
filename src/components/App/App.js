@@ -16,7 +16,7 @@ const App = () => (
           rel='noopener noreferrer'
           className={styles.school_link}
         >
-          <img className={styles.school_logo} />
+          <img alt='' className={styles.school_logo} />
         </a>
         <MenuList className={styles.section}>
           <NavLink to='/' exact className={styles.link} activeClassName={styles.active}>Обо мне</NavLink>

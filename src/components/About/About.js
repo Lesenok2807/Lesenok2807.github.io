@@ -92,7 +92,7 @@ class About extends React.Component {
              }
            </div>
          }
-       </Card>
+       </Card>       
        <Card className={styles.repo_card}>
          {isLoading ?
            <div>
